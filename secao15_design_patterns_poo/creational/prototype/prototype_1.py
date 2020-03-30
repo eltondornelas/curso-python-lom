@@ -2,6 +2,10 @@
 Especificar os tipos de objetos a serem criados
 usando uma instância-protótipo e criar novos objetos
 pela cópia desse protótipo
+
+Quais objetos são copiados com sinal de atribuição?
+    Lembrar de Mutáveis e Imutáveis
+
 """
 
 from __future__ import annotations  # evita mostrar erros bobos do hint

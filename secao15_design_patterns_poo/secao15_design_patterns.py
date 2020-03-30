@@ -139,3 +139,72 @@ lista2 = lista1  # referência, o que mudar em um muda no outro
 # Prototype utiliza um clone() do objeto
 
 '''
+
+# Aula - Strategy (Comportamental)
+'''
+O Código fica meio como um quebra cabeças
+
+Pensando num e-commerce que tenha pedidos e que dependendo do vendedor você
+pode ter descontos diferentes para determinados clientes ou o vendendor pode
+ter um limite de desconto que ele possa dar ao cliente.
+Isso é uma estratégia de desconto.
+
+Nesse caso a estratégia nesse exemplo esta no desconto
+
+'''
+
+# Aula - Observer (Comportamental)
+'''
+Objeto que precisa notificar outros objetos sobre suas alterações
+
+Ex: planilha do excel onde possua dados e queira gerar um gráfico de pizza com
+    esses dados e sempre que altera os dados o gráfico é atualizado.
+    Nesse caso os dados da planilha são o Observable e o gráfico é o Observer
+    Observable pode ter muitos Obersrver
+
+No normal o Observable envia os dados para o Observer
+'''
+
+# Aula - Command (Comportamental)
+'''
+A intenção desse padrão é encapsular um comando em um objeto
+
+Invoker -> quem invoca um Comando
+Comando -> é o cara que executa a ação no Receiver
+Receiver -> é a ação final que o cliente queria fazer
+
+'''
+
+# Aula - Template Method (Comportamental)
+'''
+
+
+'''
+
+# Aula - State - (Comportamental)
+'''
+Padrão que tenta evitar uma grande quantidade de if
+
+'''
+
+# Aula - Chain of Responsibility - (Comportamental)
+'''
+Toda requisição que tenha uma cadeia de responsabilidades que possam ser
+tratadas por vários objetos pode utilizar esse padrão
+
+Handler -> manipulador
+
+A requisição é passada entre vários objetos e eles podem tentar tratar ao
+longo da chain e retornar, ou passar para o próximo e no final, ou lança
+uma exceção ou retorna o objeto do jeito que foi enviado, ninguém conseguiu
+retornar.
+
+Livro -> Dive Into Design Patterns
+
+'''
+
+# Aula - Memento - (Comportamental)
+'''
+Cria backups dos objetos
+
+'''
