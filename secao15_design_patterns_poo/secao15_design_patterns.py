@@ -208,3 +208,20 @@ Livro -> Dive Into Design Patterns
 Cria backups dos objetos
 
 '''
+
+# Aula - Façade (fachada) - (Estrutural)
+'''
+Padrão interessante para aplicações que para iniciar possui uma determinada
+complexidade de classes.
+'''
+
+# Aula - Bridge - (Estrutural)
+'''
+Esse padrão é muito semelhante ao Adapter
+'''
+
+# Aula - Flyweight - (Estrutural)
+'''
+É um padrão utlizado apenas em casos específicos.
+É um objeto que será compartilhado por vários outros.
+'''
