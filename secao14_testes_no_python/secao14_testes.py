@@ -175,4 +175,5 @@ após instalar precisa informar qual arquivo que quer checar ex:
 
 # no vscode fica tudo automático, no pycharm vai precisar ir na aba do Mypy terminal e pressionar o Run
 
+# pip install flake8
 '''
